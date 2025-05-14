@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Adrian Josan
+	email = josan.adrian11@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Adrian Josan
+#	email = a.josan@student.tudelft.nl
+[core]
+	autocrlf = input
