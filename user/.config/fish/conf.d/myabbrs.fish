@@ -28,3 +28,5 @@ abbr -a -- reboot 'sudo shutdown -r now'
 abbr -a -- halt 'sudo shutdown -h now'
 abbr -a --set-cursor='%' -- gcam 'git commit --all -m %'
 abbr -a -- ts tailscale
+abbr -a -- k kubectl
+abbr -a -- kgp 'kubectl get pods'
