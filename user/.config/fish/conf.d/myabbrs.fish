@@ -19,10 +19,8 @@ abbr -a -- gl 'git log'
 abbr -a -- brin 'brew install'
 abbr -a -- brun 'brew uninstall'
 abbr -a -- brh 'brew home'
-abbr -a --set-cursor='%' -- abbras 'abbr -a %; abbr > ~/.dotfiles/user/.config/fish/conf.d/myabbrs.fish'
 abbr -a -- trans transmission-remote
 abbr -a -- transd transmission-daemon
-abbr -a -- abbrs 'abbr > ~/.dotfiles/user/.config/fish/conf.d/myabbrs.fish'
 abbr -a -- suspend 'sudo shutdown -s now'
 abbr -a -- reboot 'sudo shutdown -r now'
 abbr -a -- halt 'sudo shutdown -h now'
@@ -30,3 +28,6 @@ abbr -a --set-cursor='%' -- gcam 'git commit --all -m %'
 abbr -a -- ts tailscale
 abbr -a -- k kubectl
 abbr -a -- kgp 'kubectl get pods'
+abbr -a -- sapti 'sudo apt install'
+abbr -a --set-cursor='%' -- abbras 'abbr -a %; abbr > ~/my-dotfiles/user/.config/fish/conf.d/myabbrs.fish'
+abbr -a -- abbrs 'abbr > ~/my-dotfiles/user/.config/fish/conf.d/myabbrs.fish'
